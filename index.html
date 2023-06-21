@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No 2</title>
+    <style>
+        table {
+            border: 5px double black;
+            background-color: pink;
+        }
+        tr, th, td {  
+            border: 5px double black;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <table>
+        <tr>
+            <th type="required">FIRST NAME: </th>
+            <td><input type="firstname"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">LAST NAME: </th>
+            <td><input type="lastname"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">DATE OF BIRTH: </th>
+            <td><input type="DOB"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">EMAIL ID: </th>
+            <td><input type="email"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">MOBILE NUMBER: </th>
+            <td><input type="number"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required" maxlength="100">ADDRESS: </th>
+            <td><textarea name="address"></textarea></td>
+        </tr>
+        <tr>
+            <th type="required">CITY: </th>
+            <td><input type="city" maxlength="26"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">PINCODE: </th>
+            <td><input type="pincode" maxlength="6"> (6 Digit number) </td>
+        </tr>
+        <tr>
+            <th type="required">STATE: </th>
+            <td><input type="state"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required">COUNTRY: </th>
+            <td><input type="country"> (max characters a-z and A-Z) </td>
+        </tr>
+        <tr>
+            <th type="required" colspan="5">HOBBIES: </th>
+        </tr>
+        <tr>
+            <td><input type="radio"> Drawing</td>
+            <td><input type="radio"> Singing</td>
+            <td><input type="radio"> Dancing</td>
+            <td><input type="radio"> Sketching</td>
+            <td><input type="radio"> Others</td>
+        </tr>
+        <tr>
+            <th type="required" colspan="4">QUALIFICATION</th>
+        </tr>
+        <tr>
+            <th>SL.No. Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year of Passing</th>
+        </tr>
+        <tr>
+            <td> Class X</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Class XII</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Graduation</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Masters</td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+</body>
+</html>
